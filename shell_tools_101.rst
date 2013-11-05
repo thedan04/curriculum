@@ -160,6 +160,17 @@ After the first field, from left to right the fields are filetype\attributes\per
 Notice also the files named "." and "..".
 These are the current directory and the directory up one level respectively.
 
+namei
+----
+``namei`` - follow a pathname until a terminal point is found.
+
+This tool is very useful in quickly walking a directory tree and presenting data based upon the flags you use with it.  The following example would list the filesystem modes for each step along the directory tree ending with the file specified.  You could emulate this manually with ls however it would take several iterations.
+
+.. code-block:: console
+
+  $ namei -m /var/www/htdocs/index.html
+
+
 lsof
 ----
 ``lsof`` lists open files.
