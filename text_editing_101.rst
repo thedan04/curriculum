@@ -25,9 +25,9 @@ Line Numbers
 ------------
 Turn on or off line numbering with:
 
-``:set number`` 
+  :set number
 
-``:set nonumber``
+  :set nonumber
 
 Professional Fonts (vim?)
 -------------------------
@@ -46,6 +46,11 @@ Edit/Open/Close Buffers (vim)
 
 Search and Replace
 ------------------
-``:%s/old/new/`` will replace the word old with the word new, only for the first instance of the word old on each line.
-``:%s/old/new/g`` will replace every instance of the word old with the word new in the current document.
+To replace the word old with the word new, only for the first instance of the word old on each line.
+  
+  :%s/old/new/
+  
+To  replace every instance of the word old with the word new in the current document.
+
+  :%s/old/new/g
 
